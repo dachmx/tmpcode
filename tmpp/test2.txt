@@ -1,0 +1,33 @@
+account_id	long	是	用户ID
+city_id	int	是	城市ID
+propId	String	是	三体房源ID
+editStatus	String	是	1:编辑（三体房源编辑） 2：修改（已发布房源修改）
+community_name	String	是	小区名称
+community_ajk_name	String	否	安居客小区名称
+community_58_name	String	否	58小区名称
+community_ganji_name	String	否	赶集小区名称
+community_soufang_name	String	否	搜房小区名称
+rent_type	String	是	出租方式 1 整租 2 合租
+region	String	是	区域ID
+block	String	是	板块ID
+address	String	是	地址
+room	String	是	卧室
+hall	String	是	大厅
+toilet	String	是	厕所
+property_type	String	是	房屋类型 如：普通住宅
+decorate	String	是	装修情况,如：简单装修
+orientation	String	是	朝向 如：南
+floor	String	是	所在楼层
+all_floor	String	是	总楼层
+area	String	是	面积
+price	String	是	租金 元
+equipment	String	否	配套设置，如：电视,空调
+pay_type	String	否	付款类型 m,n ，默认付3押1
+share_type	String	否	出租间属性,合租时必填 如：主卧
+share_sex	String	否	租客属性,合租时必填 如：男女不限
+title	String	是	房源标题
+description	String	是	房源描述
+check_in_time	String	否	入住时间
+roomPic	String	是	室内图
+modelPic	String	否	户型图
+outsidePic	String	否	室外图
